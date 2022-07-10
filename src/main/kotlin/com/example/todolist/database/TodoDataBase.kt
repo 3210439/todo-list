@@ -7,6 +7,7 @@ data class TodoDataBase(
 
     fun init(){
         this.todoList = mutableListOf()
+        this.index = 0
         println("[DEBUG] todo database init")
     }
 
